@@ -99,6 +99,12 @@ def main():
 	tree.write('pier1-slot-list-delete.xml')
 	print 'Resulting file will remove: ' + str(ct) + ' Slot Configurations'
 
+	#readding xml declaration that gets deleted
+	#a = open('pier1-slot-list-delete.xml','r+')
+	#b = a.read()
+	#a.write('<?xml version="1.0" encoding="UTF-8"?>\n'+b)
+
+
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
 	main()
